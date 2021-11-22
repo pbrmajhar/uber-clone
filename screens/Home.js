@@ -14,7 +14,7 @@ const Home = ({navigation}) => {
     const [city, setCity] = useState("San Francisco")
     const [activeTab, setActiveTab] = useState("Delivery")
 
-    const YELP_API_KEY = "YfU_5v_H9YmrcBm9hz3Z8336KgY4o2o_ApfSHTYv5J4WPY1F3ZQKKDTL5IyXQUNx9vCKiLsKxuOFCHazT96dyNHIOoFjLLDw0inFjZ72HrrXlqXN22G-9W_YF_-RYXYx"
+    const YELP_API_KEY = ""
 
     const getRestaurantsFromYelp = () => {
         const yelpUrl = `https://api.yelp.com/v3/businesses/search?term=restaurants&location=${city}&limit=10`;
